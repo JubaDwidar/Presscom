@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "447708793388",
+    "firebase_url": "https://presscom-55c56.firebaseio.com",
+    "project_id": "presscom-55c56",
+    "storage_bucket": "presscom-55c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447708793388:android:ee3a5168955bf67ab91f89",
+        "android_client_info": {
+          "package_name": "com.juba.presscom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447708793388-3u4p7l66vtrt3c3leavt2f0f344de1a5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juba.presscom",
+            "certificate_hash": "69e5ca0ce685802474eac1221ff7122dcd714bb6"
+          }
+        },
+        {
+          "client_id": "447708793388-jbhatii26rsgrs63qam2rr6bbi2bhvbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT8Y6tfA2A7CCvOmbqyfIr-aIqi_OfTjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447708793388-jbhatii26rsgrs63qam2rr6bbi2bhvbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

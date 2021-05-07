@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_marginStart="@dimen/_1sdp"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:layout_marginEnd="@dimen/_1sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_post_pic"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:src="@drawable/profile_image" />
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_post_name"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="23dp"
+                android:paddingStart="@dimen/_2sdp"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_post_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:paddingStart="@dimen/_2sdp"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/posts_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp" />
+
+
+</LinearLayout>
